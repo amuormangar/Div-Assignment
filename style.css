@@ -1,0 +1,95 @@
+.container{
+    border: 1px black;
+    padding: 100px;
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    margin: 50px 100px 50px 300px;
+    background-color: rgb(224, 197, 224);
+    text-decoration-color: purple;
+}
+.names{
+    display: inline-flex;
+    gap: 40px;
+}
+#googleicon{
+    width: 30px;
+    height: 40px;
+}
+h1{
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+input{
+    width: 95%;
+    font-size: large;
+}
+.img{
+    width: 650px;
+    height: 600px;
+}
+
+#submit_button{
+    padding: 12px 8px;
+    background-color:rgb(155, 7, 155) ;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 97%;
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+.hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgb(99, 96, 96);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgb(112, 107, 107);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+#facebookicon{
+    width: 30px;
+    height: 40px;
+}
+#appleicon{
+    width: 30px;
+    height: 40px;
+}
+.icons{
+    text-align: center;
+    justify-content:space-between;
+    display: flex; gap: 50px;
+   
+} 
+.form{
+    border-left: solid 2px rgb(173, 67, 173);
+    display: left;
+    width: 650px;
+    font-size: large;
+    padding: 0px 0px 0px 60px;
+}
+
+
+
+
+
+
